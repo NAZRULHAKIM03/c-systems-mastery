@@ -1,0 +1,10 @@
+# Compiled Binaries
+*.out
+*.o
+histogram_analyzer
+string_reverser
+strided_sum
+telemetry_buffer
+
+# macOS OS Junk
+.DS_Store

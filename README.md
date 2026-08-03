@@ -13,7 +13,7 @@ This repository serves as both an active engineering log and a technical referen
 - [x] **02. Pointer Arithmetic & Memory Addressing:** Address dereferencing, type scaling, two-pointer algorithms, and defensive guard clauses.
 - [x] **03. Dynamic Memory & Struct Layouts:** Heap allocation (`malloc`/`free`), safe runtime resizing (`realloc`), arrow operator traversal, and hardware memory alignment (padding).
 - [x] **04. Bitwise Operations & Hardware Registers:** Bit masking, shifting (`<<`, `>>`), register flags, endianness, and XOR manipulation.
-- [ ] **05. Low-Level Data Structures:** Custom linked lists, circular ring buffers, and queues built using raw heap memory.
+- [x] **05. Function Pointers & State Machines:** Storing memory addresses of functions.
 
 ### Algorithmic Challenges
 - [ ] **LeetCode / Logic Problems:** In-place array manipulations, two-pointer optimizations and memory-constrained problem solving.

@@ -13,7 +13,8 @@ This repository serves as both an active engineering log and a technical referen
 - [x] **02. Pointer Arithmetic & Memory Addressing:** Address dereferencing, type scaling, two-pointer algorithms, and defensive guard clauses.
 - [x] **03. Dynamic Memory & Struct Layouts:** Heap allocation (`malloc`/`free`), safe runtime resizing (`realloc`), arrow operator traversal, and hardware memory alignment (padding).
 - [x] **04. Bitwise Operations & Hardware Registers:** Bit masking, shifting (`<<`, `>>`), register flags, endianness, and XOR manipulation.
-- [x] **05. Function Pointers & State Machines:** Storing memory addresses of functions.
+- [x] **05. Function Pointers & State Machines:** Storing memory addresses of functions, $O(1)$ dispatch tables, and eliminating branching overhead.
+- [x] **06. Bare-Metal Linked Lists:** Dynamic memory chaining, double pointers (`**`), structs, and safe heap garbage collection.
 
 ### Algorithmic Challenges
 - [ ] **LeetCode / Logic Problems:** In-place array manipulations, two-pointer optimizations and memory-constrained problem solving.
@@ -30,5 +31,6 @@ c-systems-mastery/
 ├── 02_pointers/          # Raw memory addressing, strided math, and in-place algorithms
 ├── 03_memory_structs/    # Heap management, struct telemetry, and memory alignment
 ├── 04_bitwise_ops/       # Bit-level manipulation, masks, and hardware register simulations
-├── 05_data_structures/   # Bare-metal implementations of lists, buffers, and trees
-└── leetcode_c/           # Memory-efficient solutions to algorithmic coding screens
+├── 05_function_pointers/ # O(1) state machines, dispatch tables, and execution branching
+├── 06_linked_lists/      # Dynamic node allocation, LIFO stacks, and memory cleanup
+└── solutions/            # Memory-efficient solutions to algorithmic coding screens

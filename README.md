@@ -14,7 +14,13 @@ This repository serves as both an active engineering log and a technical referen
 - [x] **03. Dynamic Memory & Struct Layouts:** Heap allocation (`malloc`/`free`), safe runtime resizing (`realloc`), arrow operator traversal, and hardware memory alignment (padding).
 - [x] **04. Bitwise Operations & Hardware Registers:** Bit masking, shifting (`<<`, `>>`), register flags, endianness, and XOR manipulation.
 - [x] **05. Function Pointers & State Machines:** Storing memory addresses of functions, $O(1)$ dispatch tables, and eliminating branching overhead.
-- [x] **06. Bare-Metal Linked Lists:** Dynamic memory chaining, double pointers (`**`), structs, and safe heap garbage collection.
+- [x] **06. Bare-Metal Linked Lists:** Dynamic node allocation, double pointers (`**`), LIFO stacks, and safe heap garbage collection.
+
+### Embedded Hardware & RTOS
+- [x] **07a. The Hardware Bridge (ISRs):** The `volatile` keyword, Interrupt Service Routines, and software debouncing on the ESP32.
+- [ ] **07b. Communication Protocols:** Hardware architectures for UART, I2C, and SPI.
+- [ ] **08. Concurrency & RTOS:** Task scheduling, Mutex memory locking, and Semaphores in FreeRTOS.
+- [ ] **09. Build Systems:** Makefiles and compiler automation for multi-file firmware projects.
 
 ### Algorithmic Challenges
 - [ ] **LeetCode / Logic Problems:** In-place array manipulations, two-pointer optimizations and memory-constrained problem solving.
@@ -33,4 +39,5 @@ c-systems-mastery/
 ├── 04_bitwise_ops/       # Bit-level manipulation, masks, and hardware register simulations
 ├── 05_function_pointers/ # O(1) state machines, dispatch tables, and execution branching
 ├── 06_linked_lists/      # Dynamic node allocation, LIFO stacks, and memory cleanup
-└── solutions/            # Memory-efficient solutions to algorithmic coding screens
+├── 07_hardware_interrupts/ # ISRs, volatile memory protection, and physical debouncing
+└── leetcode_c/           # Memory-efficient solutions to algorithmic coding screens

@@ -18,9 +18,9 @@ This repository serves as both an active engineering log and a technical referen
 
 ### Embedded Hardware & RTOS
 - [x] **07a. The Hardware Bridge (ISRs):** The `volatile` keyword, Interrupt Service Routines, and software debouncing on the ESP32.
-- [ ] **07b. Communication Protocols:** Hardware architectures for UART, I2C, and SPI.
-- [ ] **08. Concurrency & RTOS:** Task scheduling, Mutex memory locking, and Semaphores in FreeRTOS.
-- [ ] **09. Build Systems:** Makefiles and compiler automation for multi-file firmware projects.
+- [x] **07b. Communication Protocols:** Hardware architectures for UART, I2C, and SPI.
+- [x] **08. Concurrency & RTOS:** Task scheduling, Mutex memory locking, and Semaphores in FreeRTOS.
+- [x] **09. Build Systems:** Makefiles and compiler automation for multi-file firmware projects.
 
 ### Algorithmic Challenges
 - [ ] **LeetCode / Logic Problems:** In-place array manipulations, two-pointer optimizations and memory-constrained problem solving.
@@ -39,5 +39,8 @@ c-systems-mastery/
 ├── 04_bitwise_ops/       # Bit-level manipulation, masks, and hardware register simulations
 ├── 05_function_pointers/ # O(1) state machines, dispatch tables, and execution branching
 ├── 06_linked_lists/      # Dynamic node allocation, LIFO stacks, and memory cleanup
-├── 07_hardware_interrupts/ # ISRs, volatile memory protection, and physical debouncing
-└── leetcode_c/           # Memory-efficient solutions to algorithmic coding screens
+├── 07a_hardware_interrupts/ # ISRs, volatile memory protection, and physical debouncing
+├── 07b_communication_protocols/ # UART, I2C scanner, and SPI hardware interaction
+├── 08_freertos_concurrency/ # RTOS task scheduling, Mutex memory locks, and Semaphores
+├── 09_makefiles/         # Compiler automation, include guards, and dependency trees
+└── solutions/            # Finished Leetcode answers

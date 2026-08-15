@@ -22,9 +22,6 @@ This repository serves as both an active engineering log and a technical referen
 - [x] **08. Concurrency & RTOS:** Task scheduling, Mutex memory locking, and Semaphores in FreeRTOS.
 - [x] **09. Build Systems:** Makefiles and compiler automation for multi-file firmware projects.
 
-### Algorithmic Challenges
-- [ ] **LeetCode / Logic Problems:** In-place array manipulations, two-pointer optimizations and memory-constrained problem solving.
-
 ---
 
 ## Repository Structure

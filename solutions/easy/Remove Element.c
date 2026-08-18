@@ -10,11 +10,10 @@ int removeElement(int* nums, int numsSize, int val) {
     for (int i=0; i<numsSize; i++)
     {
         if (nums[i] != val)
-    }
-        nums[write] = nums[i];
-        write++;
+        {
+            nums[write] = nums[i];
+            write++;
+        }
 
     return write;
-        {
-        }
 }

@@ -14,6 +14,6 @@ int removeElement(int* nums, int numsSize, int val) {
             nums[write] = nums[i];
             write++;
         }
-
+    }
     return write;
 }

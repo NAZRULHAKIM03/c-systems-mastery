@@ -1,5 +1,0 @@
-// Title: Reverse String
-            // Difficulty: Unknown
-            // Language: undefined
-            // Link: https://leetcode.com/problems/reverse-string/
-

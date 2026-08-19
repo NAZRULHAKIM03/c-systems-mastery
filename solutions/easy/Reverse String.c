@@ -10,9 +10,9 @@ void reverseString(char* s, int sSize) {
 
     for (int i=0; i<last; i++)
     {
+        temp = s[i];
         s[i] = s[last];
-    }
         s[last] = temp;
-        temp = s[i];
         last--;
+    }
 }

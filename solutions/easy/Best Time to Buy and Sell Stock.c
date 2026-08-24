@@ -6,6 +6,7 @@
 int maxProfit(int* prices, int pricesSize) {
     
     int profit = 0;
+    int max_profit = 0;
     int cheapest = prices[0];
 
     for(int i=0; i<pricesSize; i++)
@@ -15,7 +16,6 @@ int maxProfit(int* prices, int pricesSize) {
             cheapest = prices[i];
         }
 
-    int max_profit = 0;
         profit = prices[i] - cheapest;
 
         if(profit > max_profit)

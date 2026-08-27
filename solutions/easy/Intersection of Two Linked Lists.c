@@ -18,8 +18,8 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNo
     while(a != b)
     {
         a = (a == NULL) ? headB : a->next;
-    }
-
-    return a;
         b = (b == NULL) ? headA : b->next;
+    }
+
+    return a;
 }

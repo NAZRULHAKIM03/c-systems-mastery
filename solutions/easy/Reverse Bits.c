@@ -11,9 +11,9 @@ int reverseBits(int n) {
     {
         last_bit = n & 1;
         n = n >> 1;
-    }
         result = result << 1;
         result = result | last_bit;
+     }
 
     return result;
 }

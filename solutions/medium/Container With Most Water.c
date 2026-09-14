@@ -10,6 +10,7 @@ int maxArea(int* height, int heightSize) {
     while(start < end)
     {
         int shorter = (height[start] < height[end]) ? height[start] : height[end];
+        int area = shorter * (end - start);
 
         if(area > max) max = area;
 
@@ -24,5 +25,4 @@ int maxArea(int* height, int heightSize) {
     }
 
     return max;
-        int area = shorter * (end - start);
 }

@@ -10,9 +10,9 @@ int hammingDistance(int x, int y) {
 
     while(diff != 0)
     {
-        count += diff & 1;
-    }
-        diff >>= 1;
-
+       count += diff & 1;
+       diff >>= 1;
+    }
+            
     return count;
 }

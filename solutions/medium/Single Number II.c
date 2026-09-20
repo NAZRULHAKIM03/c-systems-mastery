@@ -14,10 +14,10 @@ int singleNumber(int* nums, int numsSize) {
         for(int i=0; i<numsSize; i++)
         {
             if(((unsigned int)nums[i] >> b) & 1)
-        }
             {
                 count++;
             }
+        }
 
         if(count % 3 != 0)
         {

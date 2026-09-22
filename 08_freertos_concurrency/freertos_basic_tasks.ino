@@ -12,12 +12,12 @@ void setup()
 
   //Create the Blink Task
   xTaskCreate(
-    TaskBlink,
-    "Blink",
-    1024,
-    NULL,
-    1,
-    NULL
+    TaskBlink,  // Task Function (code to run)
+    "Blink",    // Task Name (for debugging)
+    1024,       // Stack Size (1024 words = 4096 bytes on ESP32)
+    NULL,       // Task Parameters (NULL = no data passed to the task)
+    1,          // Task Priority (higher number = higher priority)
+    NULL        // Task Handle (NULL = we don't need to handle this task later)
   );
 
   //Create the Sensor Task

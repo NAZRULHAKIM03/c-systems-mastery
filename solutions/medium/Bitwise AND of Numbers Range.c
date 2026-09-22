@@ -9,10 +9,11 @@ int rangeBitwiseAnd(int left, int right) {
 
     while(left < right)
     {
-        left >>= 1;
-    }
-    return left << shift;    
+        left >>= 1; 
         right >>= 1;
         shift++;
- 
+    }
+
+    return left << shift;
+            
 }
